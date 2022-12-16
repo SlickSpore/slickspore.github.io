@@ -12,10 +12,10 @@
  *	
  *	twe [...file to open]
  *
- *	:ln			Prints The line Number Once Called
+ *	:ln		Prints The line Number Once Called
  *	:gt<ln>		Sets the cursor to the requested line
  *	:!!<fl>		Saves to a file 
- *	:?			Exits the program
+ *	:?		Exits the program
  */
 
 #include <stdio.h>
@@ -131,7 +131,3 @@ int main(int argc, const char *argv[]){
 	}
 	 
 }
-
-
-
-
