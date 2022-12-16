@@ -7,10 +7,10 @@
 **PARAMETERS**: `twe  [file_to_open]`
 
 
- - `:ln` 			Prints the number of the current line.
- - `:gt<x>`	Goes to the desired line.
- - `:!!`			Saves the file with name.
- - `:?`			Quits *TWE*
+ - `:ln` 			    Prints the number of the current line.
+ - `:gt<x>`	    Goes to the desired line.
+ - `:!!<fn>`			 Saves the file with name.
+ - `:?`			      Quits *TWE*
 
 ## **Install:**
 
