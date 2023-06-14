@@ -3,12 +3,26 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .page-text {
-  width: 1634px;
-  height: 372px;
+  top: 54px;
+  left: 44px;
+  position: absolute;
+  font-size: 74px;
+  align-self: flex-start;
+}
+.page-text01 {
+  color: #c40f0f;
+  height: 84px;
   font-size: 4em;
+  align-self: center;
+}
+.page-text06 {
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-weight: 200;
 }

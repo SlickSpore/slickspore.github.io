@@ -68,6 +68,13 @@
 }
 
 
+
+.navigation-links-root-class-name27 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -235,6 +242,9 @@
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.collaborate-link1 {
+  text-decoration: underline;
+}
 .collaborate-container4 {
   width: 100%;
   display: flex;
@@ -332,7 +342,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.collaborate-link1 {
+.collaborate-link2 {
   display: contents;
 }
 .collaborate-icon12 {

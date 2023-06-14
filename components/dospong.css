@@ -1,0 +1,36 @@
+.dospong-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dospong-image {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-color: #000000;
+  border-width: 20px;
+}
+.dospong-heading {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.dospong-text {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+
+@media(max-width: 767px) {
+  .dospong-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .dospong-image {
+    height: 10rem;
+  }
+}

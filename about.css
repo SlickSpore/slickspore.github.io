@@ -68,6 +68,13 @@
 }
 
 
+
+.navigation-links-root-class-name27 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
